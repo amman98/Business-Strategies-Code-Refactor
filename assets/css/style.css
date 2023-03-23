@@ -1,13 +1,16 @@
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* element selector */
 body {
     background-color: #d9dcd6;
 }
 
+/* class selector */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* element selector with .header ancestor */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* class selector that has h1 and .header ancestors in that order */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* element selector with .header ancestor */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* element selector with nav and .header ancestor in that order */
 .header nav ul {
     list-style-type: none;
 }
 
+/* element selector with ul, nav and .header ancestor in that order */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* element selector */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* element selector */
 p {
     font-size: 16px;
 }
 
+/* class selector */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* class selector */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* class selector */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* class selector */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* class selector */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +101,26 @@ p {
     background-color: #2589bd;
 }
 
+/* class selector */
 .benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* element selector with .benefit-section ancestor */
 .benefit-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* element selector with .benefit-section ancestor */
 .benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* class selector */
 .main-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +130,18 @@ p {
     color: #ffffff;
 }
 
+/* element selector with .main-section ancestor */
 .main-section img {
     max-height: 200px;
 }
 
+/* element selector with .main-section ancestor */
 .main-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* class selector */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,7 @@ p {
     text-align: center;
 }
 
+/* element selector with .footer ancestor */
 .footer h2 {
     font-size: 20px;
 }
